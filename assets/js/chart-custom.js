@@ -5666,7 +5666,7 @@ if(typeof $.fn.magnificPopup !== typeof undefined){
           sliced: true,
           selected: true
         }, {
-            name: 'Mobile',
+            name: 'test',
           y: 40
         },{
             name: 'Tablet',
