@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Datum | CRM Admin Dashboard Template</title>
+      <title>Reveri Login</title>
       
       <!-- Favicon -->
       <link rel="shortcut icon" href="../assets/images/favicon.ico" />
@@ -74,7 +74,8 @@
                                  </div>
                               </div>
                            </div>
-                           <button type="submit" class="btn btn-primary btn-block mt-2">Log In</button>
+                           <button type="submit" class="btn btn-primary btn-block mt-2" id="loginButton">Log In</button>
+
                            <div class="col-lg-12 mt-3">
                                 <p class="mb-0 text-center">Don't have an account? <a href="auth-sign-up.html">Sign Up</a></p>
                            </div>
@@ -86,7 +87,13 @@
          </div>
       </section>
       </div>
-    
+      <script>
+         // Add event listener to the login button
+         document.getElementById("loginButton").addEventListener("click", function() {
+             // Redirect to the index.html page
+             window.location.href = "index.html";
+         });
+     </script>
     <!-- Backend Bundle JavaScript -->
     <script src="../assets/js/backend-bundle.min.js"></script>
     <!-- Chart Custom JavaScript -->
